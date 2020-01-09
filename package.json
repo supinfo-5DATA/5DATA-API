@@ -1,0 +1,26 @@
+{
+  "name": "5data-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API for SUPINFO 5DATA",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supinfo-5DATA/5DATA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/supinfo-5DATA/5DATA/issues"
+  },
+  "homepage": "https://github.com/supinfo-5DATA/5DATA#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^5.8.6",
+    "morgan": "~1.9.1"
+  }
+}
